@@ -9,7 +9,7 @@
 #import "NSArray+blocks.h"
 
 
-@implementation NSArray (BlockExtention)
+@implementation NSArray (BlockExtension)
 - (void)each:(void (^)(id))block
 {
     for (id obj in self) {

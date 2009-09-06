@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface NSArray (BlockExtention)
+@interface NSArray (BlockExtension)
 - (void)each:(void (^)(id))block;
 - (NSArray* )select:(BOOL (^)(id))block;
 - (NSArray *)map:(id (^)(id))block;
